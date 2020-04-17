@@ -1,0 +1,106 @@
+@import url();
+
+body {
+
+}
+
+.black{
+	width: 90px;
+	height: 90px;
+	background-color: black;
+	border: white solid 5px;
+  display: inline-block;
+}
+
+.white{
+  width: 90px;
+  height: 90px;
+  background-color: white;
+  border: white solid 5px;
+  display: inline-block;
+}
+
+#letter-h1{
+  display: inline-block;
+  padding: 10px;
+}
+
+#letter-h2{
+  display: inline-block;
+  padding: 10px;
+}
+
+#letter-a1{
+  display: inline-block;
+  padding: 10px;
+}
+
+#letter-a2{
+  display: inline-block;
+  padding: 10px;
+}
+
+
+/* iPad 
+-------------------------------------------------- */
+@media only screen and (min-width : 768px) and (max-width : 1024px) {
+
+  /* text */
+
+
+  /* image */
+
+}
+
+/* Mobile
+-------------------------------------------------- */
+
+@media screen and (max-width: 768px) {
+
+  #letter-h1 .one .black{
+    background-color: white;   
+  }
+
+  #letter-h1 .one .white{
+    background-color: black;
+  }
+
+  #letter-a1 .one .white{
+    background-color: black;
+  }
+
+   #letter-a1 .one .black{
+    background-color: white;
+  }
+
+  #letter-h2 .one .black{
+    background-color: white;   
+  }
+
+  #letter-h2 .one .white{
+    background-color: black;
+  }
+
+  #letter-a2 .one .white{
+    background-color: black;
+  }
+
+   #letter-a2 .one .black{
+    background-color: white;
+  }
+
+}
+
+
+/* Orientation
+-------------------------------------------------- */
+
+@media (orientation: landscape) {
+
+  /* text */
+
+  /* image */
+
+}
+
+
